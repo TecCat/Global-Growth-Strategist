@@ -75,6 +75,30 @@ a { text-decoration: none; color: inherit; }
 
 .nav-links a:hover { color: var(--accent-secondary); }
 
+/* 語言切換器 */
+.lang-switch {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-left: 1px solid var(--card-border);
+    padding-left: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.lang-switch a {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.lang-switch a:hover { color: var(--accent-secondary); }
+
+.lang-switch a.active {
+    color: var(--accent-primary);
+    font-weight: 700;
+}
+
 /* 按鈕系統 */
 .btn {
     padding: 0.8rem 1.8rem;
