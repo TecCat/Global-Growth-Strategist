@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights & Perspectives | Global Growth Strategist</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">Growth Architect</a>
+        <div class="nav-links">
+            <a href="index.html#about">Career Journey</a>
+            <a href="index.html#expertise">Core Expertise</a>
+            <a href="index.html#impact">Business Impact</a>
+            <a href="insights.html">Insights</a>
+            <a href="index.html#products">Products</a>
+        </div>
+        <div class="lang-switch">
+            <a href="insights.html" class="active">EN</a>
+            <a href="zh.html">繁中</a>
+        </div>
+        <a href="index.html#booking" class="btn btn-outline" style="margin-left: 1rem;">Book a Call</a>
+    </nav>
+
+    <!-- Insights Header -->
+    <div style="background-color: var(--bg-secondary); padding: 8rem 5% 4rem; text-align: center; border-bottom: 1px solid var(--card-border);">
+        <h1 style="font-size: 3rem; margin-bottom: 1rem;">Insights & Perspectives</h1>
+        <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto;">Deep dives into growth marketing, operational frameworks, and acquisition psychology.</p>
+    </div>
+
+    <!-- Insights Section -->
+    <section class="section" style="min-height: 60vh;">
+        <div class="cards-container">
+            <div class="card fade-in">
+                <div class="badge" style="margin-bottom: 1rem;">ASO & User Psychology</div>
+                <h3>🤖 Mastering App Growth via Psychological Triggers</h3>
+                <p>Exploring the ultimate intersection of ASO and performance marketing. Utilizing buyer subconscious
+                    mechanisms to fundamentally boost lower-funnel conversion rates and long-term customer LTV.</p>
+                <a href="https://appgrowth-llc.notion.site/Mastering-App-Growth-with-Psychological-Triggers-43f1dad85077483a8031bf2aec68f8af"
+                    target="_blank" class="btn btn-outline" style="margin-top: 1.5rem;">Read Article</a>
+            </div>
+            <div class="card fade-in">
+                <div class="badge" style="margin-bottom: 1rem;">Strategy & Frameworks</div>
+                <h3>♾️ Deconstructing Growth Bottlenecks: A 4-Step Framework</h3>
+                <p>Sharing my battle-tested systematic operational strategy. This framework has repeatedly helped
+                    multinationals overcome early acquisition blind spots, establishing robust operational defenses from
+                    raw data to net monetization.</p>
+                <a href="https://appgrowth-llc.notion.site/Solving-The-App-Growth-Puzzle-My-4-Step-Approach-for-App-Marketing-e32103d5825c4f90b5e487563a7bf2cb"
+                    target="_blank" class="btn btn-outline" style="margin-top: 1.5rem;">Read Article</a>
+            </div>
+            <div class="card fade-in">
+                <div class="badge" style="margin-bottom: 1rem;">User Acquisition</div>
+                <h3>🗣️ Tactical Strategies for High-Value User Acquisition</h3>
+                <p>Moving rapidly beyond the vanity metrics of mere install costs (CPI). Diving deep into the
+                    methodology of capturing high-value "whale" users, optimizing multi-region resource allocation, and
+                    executing precise A/B testing tactics.</p>
+                <a href="https://appgrowth-llc.notion.site/My-Go-To-User-Acquisition-Tactics-09d756dc0e3f4a1ebeeee35d4be95a3d"
+                    target="_blank" class="btn btn-outline" style="margin-top: 1.5rem;">Read Article</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Global Program & Delivery Operations Leader. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const elements = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            elements.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
