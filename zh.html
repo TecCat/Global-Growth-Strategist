@@ -21,7 +21,8 @@
     <!-- 導覽列 -->
     <nav class="navbar">
         <div class="logo">
-            <svg class="logo-icon" viewBox="0 0 100 100" width="24" height="24" style="margin-right: 10px; vertical-align: middle;">
+            <svg class="logo-icon" viewBox="0 0 100 100" width="24" height="24"
+                style="margin-right: 10px; vertical-align: middle;">
                 <polygon points="50,10 90,45 80,55 50,30 20,55 10,45" fill="var(--accent-secondary)" />
                 <polygon points="50,45 90,80 80,90 50,65 20,90 10,80" fill="var(--accent-secondary)" />
             </svg>
@@ -44,8 +45,7 @@
     <!-- 英雄首屏 -->
     <header class="hero">
         <div class="hero-content">
-            <div class="badge">Stanford & DeepLearning.AI GenAI Certified</div>
-            <h1>Global <span class="gradient-text">Product Ops</span> & Growth Architect</h1>
+            <h1>Global <span class="gradient-text">Product Growth</span></h1>
             <p>橫跨硬體供應鏈 (Atoms)、SaaS 產品 (Bits) 到跨國電商平台 (Scale)。我為企業搭建規模化的全球營運與成長引擎。</p>
             <div class="hero-actions">
                 <a href="#booking" class="btn btn-primary">安排免費線上諮詢</a>
@@ -121,6 +121,25 @@
         </div>
     </section>
 
+    <!-- 權威認證 Trust Bar -->
+    <section class="trust-bar fade-in">
+        <div class="trust-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Google_Gemini_logo_2025.svg" alt="Google Gemini"
+                style="height: 32px;">
+        </div>
+        <div class="trust-item">
+            <img src="https://continuingstudies.stanford.edu/themes/csp-home/assets/default/img/icons/logo.png"
+                alt="Stanford" style="height: 32px;">
+        </div>
+        <div class="trust-item">
+            <img src="https://learn.deeplearning.ai/assets/dlai-logo.png" alt="DeepLearning.AI" style="height: 32px;">
+        </div>
+        <div class="trust-item">
+            <img src="https://assets.softr-files.com/applications/1be35a0b-fb16-42c1-a83c-af4b9234b8d3/assets/53727566-6ab2-4344-a6a3-5c524372d29a.svg"
+                alt="Reforge" style="height: 42px;">
+        </div>
+    </section>
+
     <!-- 關於架構師 (Author Profile) -->
     <section id="profile" class="section fade-in" style="background-color: var(--bg-color); margin-top: 2rem;">
         <div class="profile-container">
@@ -153,10 +172,12 @@
     <!-- 企業見證輪播區塊 (作為購買產品前的權威背書) -->
     <section id="testimonials" class="section fade-in" style="padding-top: 4rem; padding-bottom: 2rem;">
         <div style="text-align: center; margin-bottom: 2.5rem;">
-            <p style="font-weight: 600; color: var(--accent-secondary); letter-spacing: 1px; text-transform: uppercase; font-size: 0.9rem;">從全球企業擴展到你的個人工作流</p>
+            <p
+                style="font-weight: 600; color: var(--accent-secondary); letter-spacing: 1px; text-transform: uppercase; font-size: 0.9rem;">
+                從全球企業擴展到你的個人工作流</p>
             <h2 class="section-title" style="margin-bottom: 0;">業界實績與領袖見證</h2>
         </div>
-        
+
         <div class="testimonials-carousel">
             <div class="carousel-track">
                 <!-- 見證 1 -->
@@ -168,10 +189,15 @@
                             <span>全球電商領導平台 (eBay)</span>
                         </div>
                     </div>
-                    <p>「在過去兩年中，我與 Silja 在 eBay 合作推動了多項買家體驗優化。她是一位高效且具協作力的領導者，能將精準的產品判斷力與穩定執行力完美結合。她在全球規模化的專案中展現了巨大影響力：從主導 190 多個國家的首頁改版，到確保全球策略發布的穩定性與商業價值。她總能平衡速度與品質，並讓團隊專注於核心成果。Silja 展現的高誠信度與主動性，讓她成為任何重要專案中不可或缺的領導者，我毫無保留地推薦她。」</p>
-                    <div class="stars"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></div>
+                    <p>「在過去兩年中，我與 Silja 在 eBay
+                        合作推動了多項買家體驗優化。她是一位高效且具協作力的領導者，能將精準的產品判斷力與穩定執行力完美結合。她在全球規模化的專案中展現了巨大影響力：從主導 190
+                        多個國家的首頁改版，到確保全球策略發布的穩定性與商業價值。她總能平衡速度與品質，並讓團隊專注於核心成果。Silja
+                        展現的高誠信度與主動性，讓她成為任何重要專案中不可或缺的領導者，我毫無保留地推薦她。」</p>
+                    <div class="stars"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon
+                            name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                    </div>
                 </div>
-                
+
                 <!-- 見證 2 -->
                 <div class="testimonial-card">
                     <div class="testimonial-header">
@@ -181,8 +207,11 @@
                             <span>PLG 型 SaaS 企業</span>
                         </div>
                     </div>
-                    <p>「Silja 是一位卓越的行銷合作夥伴，她是行銷與產品營運領域的專家。我們在網站版位佈控上的協作非常愉快，她不僅對前後端架構有深刻理解，更能精準掌握拉丁美洲等複雜市場的用戶分群 (User Segmentation) 策略。」</p>
-                    <div class="stars"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></div>
+                    <p>「Silja 是一位卓越的行銷合作夥伴，她是行銷與產品營運領域的專家。我們在網站版位佈控上的協作非常愉快，她不僅對前後端架構有深刻理解，更能精準掌握拉丁美洲等複雜市場的用戶分群 (User
+                        Segmentation) 策略。」</p>
+                    <div class="stars"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon
+                            name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                    </div>
                 </div>
 
                 <!-- 見證 3 -->
@@ -194,8 +223,12 @@
                             <span>全球電商領導平台 (eBay)</span>
                         </div>
                     </div>
-                    <p>「我與 Silja 共同管理 eBay 站內與 App 的用戶體驗，她主導了全球權威站點的行銷內容投放策略，這是一項規模達千萬美元級的業務。Silja 展現了極強的責任感與永無止盡的好奇心，並具備真正的成長思維 (Growth Mindset)！從產品增長諮詢到 ASO 優化，她總能將熱情轉化為專業產出。幾乎沒有她解決不了的難題，任何團隊若能擁有她都是極其幸運的。」</p>
-                    <div class="stars"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></div>
+                    <p>「我與 Silja 共同管理 eBay 站內與 App 的用戶體驗，她主導了全球權威站點的行銷內容投放策略，這是一項規模達千萬美元級的業務。Silja
+                        展現了極強的責任感與永無止盡的好奇心，並具備真正的成長思維 (Growth Mindset)！從產品增長諮詢到 ASO
+                        優化，她總能將熱情轉化為專業產出。幾乎沒有她解決不了的難題，任何團隊若能擁有她都是極其幸運的。」</p>
+                    <div class="stars"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon
+                            name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                    </div>
                 </div>
 
                 <!-- 見證 4 (GrowthMentor) -->
@@ -207,8 +240,12 @@
                             <span>GrowthMentor 平台</span>
                         </div>
                     </div>
-                    <p>「Silja 極端出色！我們在諮詢中獲得了非常有價值的洞察，包括如何更深入地了解客戶、如何更有效地行銷，以及如何為我們的服務模式建立正確的用戶旅程與路線圖。她甚至在會後提供了實用工具，其中一份範本極大地幫助我們優化了市場進入 (GTM) 策略。」</p>
-                    <div class="stars"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></div>
+                    <p>「Silja
+                        極端出色！我們在諮詢中獲得了非常有價值的洞察，包括如何更深入地了解客戶、如何更有效地行銷，以及如何為我們的服務模式建立正確的用戶旅程與路線圖。她甚至在會後提供了實用工具，其中一份範本極大地幫助我們優化了市場進入
+                        (GTM) 策略。」</p>
+                    <div class="stars"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon
+                            name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                    </div>
                 </div>
             </div>
         </div>
@@ -221,13 +258,13 @@
                 <div class="layered-mockup">
                     <div class="mockup-bg"></div>
                     <div class="mockup-img-layer layer-1">
-                        <div class="mockup-header">Personal Cashflow AI.bot <span class="dots"><span></span><span></span><span></span></span></div>
-                        <div class="mockup-body" style="background:#0F172A; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;">
-                            <img src="https://cdn.simpleicons.org/line/22C55E" width="72" height="72" alt="LINE Logo" style="margin-bottom: 1.2rem;">
+                        <div class="mockup-header">Personal Cashflow AI.bot <span
+                                class="dots"><span></span><span></span><span></span></span></div>
+                        <div class="mockup-body"
+                            style="background:#0F172A; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;">
+                            <img src="https://cdn.simpleicons.org/line/22C55E" width="72" height="72" alt="LINE Logo"
+                                style="margin-bottom: 1.2rem;">
                             <h3 style="color:white; font-size:1.2rem; margin-bottom:0.5rem;">AI Line Bot 現金流管家</h3>
-                            <div style="background:rgba(34, 197, 94, 0.2); border:1px solid #22c55e; color:#22c55e; padding:0.3rem 1rem; border-radius:50px; font-size:0.8rem; font-family:monospace;">
-                                開發進度: 80% COMPLETE
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -235,11 +272,11 @@
             <div class="product-info">
                 <div class="badge" style="margin-bottom: 1rem;">首發旗艦自動化工具</div>
                 <h2>個人專屬 AI <span class="gradient-text">現金流管家</span></h2>
-                <p style="font-size: 1.15rem; margin-bottom: 2rem;">為你量身準備的個人 Line Bot Expense Tracker 與財務洞察助手。完全無需寫程式片段 (No-Code)—只需貼上你自己的 API key，讓 AI 自動接管你的帳務規劃。</p>
+                <p style="font-size: 1.15rem; margin-bottom: 2rem;">只需 Google + Line 兩大日常工具，即可打造你的個人 Cash Flow Management 系統。一次設定、終身使用，無需任何月訂閱費，且資料完全由你掌控。</p>
                 <ul class="product-features">
-                    <li><ion-icon name="flash"></ion-icon> <span><strong>隨插即用腳本:</strong> 只要 10 分鐘，免寫碼輕鬆部署你專屬的隱私 Line Bot。</span></li>
-                    <li><ion-icon name="wallet"></ion-icon> <span><strong>財務自動駕駛:</strong> 將企業級營運追蹤思維，降維運用到你的個人日常預算系統中。</span></li>
-                    <li><ion-icon name="shield-checkmark"></ion-icon> <span><strong>絕對的數據自主權 (Data Ownership):</strong> 將資料的掌控權完全交還給你。透過你的私人 API Key 單獨運行，確保唯有你能存取並控制這些商業級的財務洞察。</span></li>
+                    <li><ion-icon name="flash"></ion-icon> <span><strong>Google + Line 強大組合:</strong> 只需 10 分鐘串接 Google 試算表與 Line Bot，免寫程式碼 (No-Code) 即可讓 AI 自動接管繁瑣的帳務輸入與分類。</span></li>
+                    <li><ion-icon name="cash"></ion-icon> <span><strong>零訂閱費、一次部署:</strong> 拒絕昂貴的月費軟體。透過你的私人 API Key 單獨運行，這是一套專屬於你、且永久免費運行的財務自動化系統。</span></li>
+                    <li><ion-icon name="shield-checkmark"></ion-icon> <span><strong>絕對的數據自主權 (Data Ownership):</strong> 一切隱私資料均儲存在你個人的 Google 帳號中，而非第三方平台。這不是產品，這是你個人的財務數位資產。</span></li>
                 </ul>
                 <div style="margin-top: 2.5rem;">
                     <a href="https://tally.so/r/7RvO9R" target="_blank" class="btn btn-primary btn-glowing">
@@ -254,16 +291,22 @@
     <!-- 未來產品藍圖區塊 (Roadmap) -->
     <section class="section fade-in" style="padding-top: 0; margin-bottom: 4rem;">
         <div style="text-align: center; margin-bottom: 2rem;">
-            <p style="font-weight: 600; color: var(--text-secondary); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px;">自動化產品藍圖 (Roadmap)</p>
+            <p
+                style="font-weight: 600; color: var(--text-secondary); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px;">
+                自動化產品藍圖 (Roadmap)</p>
         </div>
         <div class="cards-container" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
             <div class="card" style="opacity: 0.6; border-style: dashed; padding: 2rem 2.5rem;">
-                <div class="badge" style="margin-bottom: 1rem; background: #e5e7eb; color: #555; border: none; font-size: 0.75rem;">NEXT PHASE</div>
+                <div class="badge"
+                    style="margin-bottom: 1rem; background: #e5e7eb; color: #555; border: none; font-size: 0.75rem;">
+                    NEXT PHASE</div>
                 <h3 style="font-size: 1.25rem;">GTM 產品上市實戰清單</h3>
                 <p style="font-size: 0.95rem;">我用來策劃大企業等級 SaaS 成功發布案的確切 Go-To-Market 順序與檢核框架。</p>
             </div>
             <div class="card" style="opacity: 0.6; border-style: dashed; padding: 2rem 2.5rem;">
-                <div class="badge" style="margin-bottom: 1rem; background: #e5e7eb; color: #555; border: none; font-size: 0.75rem;">COMING SOON</div>
+                <div class="badge"
+                    style="margin-bottom: 1rem; background: #e5e7eb; color: #555; border: none; font-size: 0.75rem;">
+                    COMING SOON</div>
                 <h3 style="font-size: 1.25rem;">Agentive Social Media Template</h3>
                 <p style="font-size: 0.95rem;">自帶高端 Agentic Workflow 的自動化社群內容引擎，幫助您產生具有結構與深度的發文。</p>
             </div>
